@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "first-font";
+  src: url(../../../dist/css/fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "second-font";
+  src: url(../../../dist/css/fonts/GraphikRegular.otf);
+}
+
+@font-face {
+  font-family: "third-font";
+  src: url(../../../dist/css/fonts/Poppins-Regular.ttf);
+}
+
+$primary-color: #A36A4F;
+$secondary-color: #ECDAC4;
+$primary-regular-font: "first-font";
+$secondary-font: "second-font";
+$third-font: "third-font";
+$primary-text-color: #363031;
+$secondary-text-color: #fff;

@@ -1,0 +1,15 @@
+// Define a mixin for buttons
+@mixin button($bg-color, $text-color, $width: 162px, $height: 48px, $border-radius: 25px, $font-weight: 400) {
+    background-color: $bg-color;
+    color: $secondary-text-color;
+    width: $width;
+    height: $height;
+    font-family: $secondary-font;
+    border-radius: $border-radius;
+    font-weight: $font-weight;
+    font-size: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, color 0.3s;
+}

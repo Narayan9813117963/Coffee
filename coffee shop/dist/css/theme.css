@@ -1,0 +1,250 @@
+@font-face {
+  font-family: "first-font";
+  src: url(../../../dist/css/fonts/PlayfairDisplay-VariableFont_wght.ttf); }
+
+@font-face {
+  font-family: "second-font";
+  src: url(../../../dist/css/fonts/GraphikRegular.otf); }
+
+@font-face {
+  font-family: "third-font";
+  src: url(../../../dist/css/fonts/Poppins-Regular.ttf); }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.custom-container {
+  max-width: 1178px;
+  width: 100%;
+  margin: 0 auto; }
+
+.custom-container-sm {
+  max-width: 878px;
+  width: 100%;
+  margin: auto; }
+
+h1 {
+  font-family: "first-font";
+  font-weight: 700;
+  color: #363031;
+  font-size: 64px; }
+
+h2 {
+  font-family: "first-font";
+  font-weight: 600;
+  color: #363031;
+  font-size: 48px; }
+
+h3 {
+  font-family: "third-font";
+  font-weight: 600;
+  color: #363031;
+  font-size: 32px; }
+
+p {
+  font-size: 16px;
+  font-family: "third-font"; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.button-primary {
+  background-color: #A36A4F;
+  color: #fff;
+  width: 162px;
+  height: 48px;
+  font-family: "second-font";
+  border-radius: 25px;
+  font-weight: 400;
+  font-size: 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, color 0.3s; }
+
+.button-secondary {
+  background-color: #ECDAC4;
+  color: #fff;
+  width: 162px;
+  height: 48px;
+  font-family: "second-font";
+  border-radius: 25px;
+  font-weight: 400;
+  font-size: 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, color 0.3s; }
+
+img {
+  width: 100%;
+  height: 100%; }
+
+.row {
+  width: 100%; }
+
+@media screen and (max-width: 992px) {
+  .custom-container {
+    padding: 0 20px; } }
+
+.banner .left-sec-banner .banner-paragraph {
+  font-size: 24px;
+  font-family: "first-font"; }
+
+.product-wrapper {
+  background: #363032;
+  margin-top: 100px;
+  padding: 168px 63px 64px 63px; }
+  .product-wrapper .customer-num-detail-wrapper {
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: -17%; }
+    .product-wrapper .customer-num-detail-wrapper .branch-customer-detail {
+      border-radius: 80px;
+      background-color: #ECDAC4;
+      min-height: 188px;
+      padding: 0 96px; }
+      .product-wrapper .customer-num-detail-wrapper .branch-customer-detail .detail-card-wrapper {
+        max-width: 170px;
+        min-height: 140px;
+        width: 100%;
+        margin: auto; }
+        .product-wrapper .customer-num-detail-wrapper .branch-customer-detail .detail-card-wrapper .section-detail .coffee-icon {
+          height: 36px;
+          width: 36px;
+          background-color: #FFFFFF59;
+          border-radius: 50%; }
+          .product-wrapper .customer-num-detail-wrapper .branch-customer-detail .detail-card-wrapper .section-detail .coffee-icon img {
+            width: 24px;
+            height: 24px; }
+        .product-wrapper .customer-num-detail-wrapper .branch-customer-detail .detail-card-wrapper .section-detail .number-detail {
+          color: #363031; }
+  .product-wrapper .product-1 {
+    max-width: 186px;
+    width: 100%; }
+    .product-wrapper .product-1 .product-img {
+      max-width: 186px;
+      width: 100%;
+      height: 246px;
+      border-radius: 16px;
+      overflow: hidden;
+      margin: 0; }
+    .product-wrapper .product-1 .product-name {
+      color: #FFF; }
+
+.contact-wrapper .contact-head {
+  padding: 71px 0; }
+
+.contact-wrapper .contact-form-wrapper {
+  max-width: 676px;
+  width: 100%;
+  min-height: 751px;
+  box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.1); }
+  .contact-wrapper .contact-form-wrapper form {
+    padding: 48px; }
+    .contact-wrapper .contact-form-wrapper form .form-input-wrapper {
+      gap: 40px; }
+      .contact-wrapper .contact-form-wrapper form .form-input-wrapper .contact-step-indicator {
+        max-width: 157px; }
+        .contact-wrapper .contact-form-wrapper form .form-input-wrapper .contact-step-indicator .indicator {
+          width: 24px;
+          height: 7px;
+          border-radius: 16px;
+          background-color: #DADADA; }
+          .contact-wrapper .contact-form-wrapper form .form-input-wrapper .contact-step-indicator .indicator.active {
+            width: 81px;
+            background-color: #A36A4F; }
+      .contact-wrapper .contact-form-wrapper form .form-input-wrapper .main-input-wrapper label {
+        font-family: "second-font";
+        font-size: 16px;
+        font-weight: 400; }
+      .contact-wrapper .contact-form-wrapper form .form-input-wrapper .main-input-wrapper input,
+      .contact-wrapper .contact-form-wrapper form .form-input-wrapper .main-input-wrapper select {
+        max-width: 375px;
+        width: 100%;
+        height: 62px;
+        padding: 0 16px;
+        border-radius: 8px;
+        border: 1px solid #DADADA; }
+        .contact-wrapper .contact-form-wrapper form .form-input-wrapper .main-input-wrapper input:focus,
+        .contact-wrapper .contact-form-wrapper form .form-input-wrapper .main-input-wrapper select:focus {
+          outline: none;
+          box-shadow: none; }
+        .contact-wrapper .contact-form-wrapper form .form-input-wrapper .main-input-wrapper input:active,
+        .contact-wrapper .contact-form-wrapper form .form-input-wrapper .main-input-wrapper select:active {
+          outline: none; }
+    .contact-wrapper .contact-form-wrapper form .contact-btn .button-primary {
+      background-color: #ECDAC4;
+      color: #60431F; }
+
+@media screen and (max-width: 1200px) {
+  .customer-num-detail-wrapper {
+    top: -10% !important; } }
+
+@media screen and (max-width: 992px) {
+  .row {
+    margin-left: 0; }
+  .left-sec-banner {
+    margin-bottom: 30px; }
+  .product-wrapper {
+    margin-top: 242px;
+    padding: 0;
+    padding-top: 232px; }
+    .product-wrapper .customer-num-detail-wrapper {
+      top: -17% !important; }
+    .product-wrapper .branch-customer-detail {
+      padding: 20px !important; }
+  .contact-wrapper .contact-head {
+    text-align: center; }
+  .contact-wrapper .contact-form-wrapper {
+    margin: auto; } }
+
+@media screen and (max-width: 768px) {
+  .product-wrapper {
+    margin-top: 360px;
+    padding-top: 332px; }
+  .first-last-name {
+    flex-direction: column; } }
+
+@media screen and (max-width: 576px) {
+  .product-wrapper {
+    padding-top: 232px; }
+  .contact-head {
+    padding: 32px 0 !important; }
+  form {
+    padding: 32px !important; } }
+
+.nav-wrapper {
+  padding: 0 48px;
+  box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 28px;
+  height: 100px; }
+  .nav-wrapper .logo {
+    height: 76px;
+    width: 76px; }
+  .nav-wrapper .navbar a {
+    font-size: 18px;
+    font-family: "second-font";
+    padding: 22px 10px; }
+  .nav-wrapper .toggler-btn .bar-icon {
+    width: 28px; }
+    .nav-wrapper .toggler-btn .bar-icon span {
+      height: 1px;
+      background-color: #363031; }
+  .nav-wrapper .offcanvas {
+    background-color: #ffffff;
+    height: 100vh !important; }
+    .nav-wrapper .offcanvas .offcanvas-body a {
+      color: #363031;
+      font-size: 22px;
+      font-family: "second-font"; }
+
+@media screen and (max-width: 576px) {
+  .nav-wrapper {
+    padding: 0 20px !important; } }

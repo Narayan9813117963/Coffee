@@ -1,0 +1,46 @@
+.nav-wrapper{
+  padding: 0 48px;
+  box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 28px;
+  height: 100px;
+  .logo{
+    height: 76px;
+    width: 76px;
+  }
+  .navbar{
+    a{
+      font-size: 18px;
+      font-family: $secondary-font;
+      padding: 22px 10px;
+    }
+  }
+  .toggler-btn {
+    .bar-icon {
+    width: 28px;
+      span {
+        height: 1px;
+        background-color: $primary-text-color;
+      }
+    }
+ 
+}
+
+.offcanvas {
+  background-color: #ffffff;
+  height: 100vh !important;
+  .offcanvas-body{
+    a{
+      color: $primary-text-color;
+      font-size: 22px;
+      font-family: $secondary-font;
+    }
+  }
+}
+}
+@media screen and (max-width: 576px) {
+  .nav-wrapper{
+    padding: 0 20px !important;
+  }
+}
