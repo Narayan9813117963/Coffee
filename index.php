@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="col-lg-7 col-md-12 p-0 right-sec-banner">
-            <div class="hero-image d-flex justify-content-end">
+            <div class="hero-image">
                 <figure class="mb-0">
                     <img src="../images/Hero images.png" alt="hero-img">
                 </figure>
@@ -19,8 +19,8 @@
     </div>
 </main>
 <section>
-    <div class="product-wrapper position-relative">
-        <div class="custom-container-sm customer-num-detail-wrapper position-absolute">
+    <div class="product-wrapper">
+        <div class="custom-container-sm customer-num-detail-wrapper">
             <div class="branch-customer-detail d-flex justify-content-center align-items-center">
                 <div class="row w-100">
                     <div class="col-12 col-md-6 col-lg-4">
