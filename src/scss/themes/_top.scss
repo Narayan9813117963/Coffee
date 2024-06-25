@@ -101,7 +101,6 @@
             }
           }
         }
-
         .main-input-wrapper {
           max-width: 375px;
           width: 100%;
@@ -128,6 +127,9 @@
               outline: none;
             }
           }
+        }
+        .name-wrapper{
+          max-width: 100%;
         }
       }
 
@@ -186,6 +188,9 @@
 
   .first-last-name {
     flex-direction: column;
+  }
+  .name-wrapper{
+    max-width: 375px !important;
   }
   .form-input-wrapper{
     align-items: center;

@@ -179,6 +179,8 @@ img {
           .contact-wrapper .contact-form-wrapper form .form-input-wrapper .main-input-wrapper input:active,
           .contact-wrapper .contact-form-wrapper form .form-input-wrapper .main-input-wrapper select:active {
             outline: none; }
+      .contact-wrapper .contact-form-wrapper form .form-input-wrapper .name-wrapper {
+        max-width: 100%; }
     .contact-wrapper .contact-form-wrapper form .contact-btn .button-primary {
       background-color: #ECDAC4;
       color: #60431F; }
@@ -211,6 +213,8 @@ img {
     padding-top: 332px; }
   .first-last-name {
     flex-direction: column; }
+  .name-wrapper {
+    max-width: 375px !important; }
   .form-input-wrapper {
     align-items: center; } }
 

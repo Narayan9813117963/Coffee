@@ -127,7 +127,7 @@
                                     <div class="indicator"></div>
                                     <div class="indicator"></div>
                                 </div>
-                                <div class="main-input-wrapper d-flex flex-column gap-3">
+                                <div class="main-input-wrapper name-wrapper d-flex flex-column gap-3">
                                     <label for="first-name">*Name</label>
                                     <div class="first-last-name d-flex gap-4">
                                         <input type="text" id="first-name" placeholder="FirstName">
