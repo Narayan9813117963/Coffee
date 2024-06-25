@@ -5,14 +5,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coffee</title>
-    <link rel="shortcut icon" type="image/png" href="images/tab-logo.png">
     <link rel="stylesheet" href="dist/css/vendor.css" />
     <link rel="stylesheet" href="dist/css/theme.css" />
 </head>
 
 <body>
-        <nav>
-            <div class="header-navbar">
+    <nav>
+        <div class="header-navbar">
             <div class="custom-container">
                 <div class="d-flex align-items-center nav-wrapper">
                     <div class="col-lg-1 logo-wrapper">
@@ -24,16 +23,20 @@
                         <div class="navbar">
                             <ul class="navbar-nav mr-auto d-flex flex-row justify-content-between w-100">
                                 <li class="nav-item active">
-                                    <a class="nav-link d-flex align-items-center justify-content-center" href="#">Solutions</a>
+                                    <a class="nav-link d-flex align-items-center justify-content-center"
+                                        href="#">Solutions</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link d-flex align-items-center justify-content-center" href="#">Industries</a>
+                                    <a class="nav-link d-flex align-items-center justify-content-center"
+                                        href="#">Industries</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link d-flex align-items-center justify-content-center" href="#">Reasons</a>
+                                    <a class="nav-link d-flex align-items-center justify-content-center"
+                                        href="#">Reasons</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link d-flex align-items-center justify-content-center" href="#">About Us</a>
+                                    <a class="nav-link d-flex align-items-center justify-content-center" href="#">About
+                                        Us</a>
                                 </li>
                             </ul>
                         </div>
@@ -75,6 +78,6 @@
                     </div>
                 </div>
             </div>
-            </div>
+        </div>
 
-        </nav>
+    </nav>

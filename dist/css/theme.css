@@ -94,13 +94,13 @@ img {
 .row {
   width: 100%; }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1200px) {
   .custom-container {
     padding: 0 20px; } }
 
 .banner {
-  margin-top: 161px;
-  margin-bottom: 62px; }
+  padding-top: 161px;
+  padding-bottom: 80px; }
   .banner .left-sec-banner {
     max-width: 464px;
     width: 100%; }
@@ -116,59 +116,53 @@ img {
 
 .product-wrapper {
   background: #363032;
-  margin-top: 100px;
-  padding: 168px 63px 64px 63px; }
+  margin-top: 108px;
+  padding: 168px 0; }
   .product-wrapper .customer-num-detail-wrapper {
     left: 50%;
     transform: translate(-50%, 0);
-    top: -17%; }
+    top: -90px; }
     .product-wrapper .customer-num-detail-wrapper .branch-customer-detail {
       border-radius: 80px;
       background-color: #ECDAC4;
-      min-height: 188px;
-      padding: 0 96px; }
-      .product-wrapper .customer-num-detail-wrapper .branch-customer-detail .detail-card-wrapper {
-        max-width: 170px;
-        min-height: 140px;
-        width: 100%;
-        margin: auto; }
-        .product-wrapper .customer-num-detail-wrapper .branch-customer-detail .detail-card-wrapper .section-detail {
-          gap: 4px; }
-          .product-wrapper .customer-num-detail-wrapper .branch-customer-detail .detail-card-wrapper .section-detail .coffee-icon {
-            height: 36px;
-            width: 36px;
-            background-color: #FFFFFF59;
-            border-radius: 50%; }
-            .product-wrapper .customer-num-detail-wrapper .branch-customer-detail .detail-card-wrapper .section-detail .coffee-icon img {
-              width: 24px;
-              height: 24px; }
-          .product-wrapper .customer-num-detail-wrapper .branch-customer-detail .detail-card-wrapper .section-detail .number-detail {
-            color: #363031; }
-  .product-wrapper .product-1 {
+      padding: 24px 96px; }
+      .product-wrapper .customer-num-detail-wrapper .branch-customer-detail .section-detail {
+        gap: 4px; }
+        .product-wrapper .customer-num-detail-wrapper .branch-customer-detail .section-detail .coffee-icon {
+          height: 36px;
+          width: 36px;
+          background-color: #FFFFFF59;
+          border-radius: 50%; }
+          .product-wrapper .customer-num-detail-wrapper .branch-customer-detail .section-detail .coffee-icon img {
+            width: 24px;
+            height: 24px; }
+        .product-wrapper .customer-num-detail-wrapper .branch-customer-detail .section-detail .number-detail {
+          color: #363031; }
+
+.product-1 {
+  max-width: 186px;
+  width: 100%; }
+  .product-1 .product-img {
     max-width: 186px;
-    width: 100%; }
-    .product-wrapper .product-1 .product-img {
-      max-width: 186px;
-      width: 100%;
-      height: 246px;
-      border-radius: 16px;
-      overflow: hidden;
-      margin: 0; }
-    .product-wrapper .product-1 .product-name {
-      color: #FFF; }
+    width: 100%;
+    height: 246px;
+    border-radius: 16px;
+    overflow: hidden;
+    margin: 0; }
+  .product-1 .product-name {
+    color: #FFF; }
 
 .contact-wrapper {
   margin: 106px 0; }
   .contact-wrapper .contact-text {
     max-width: 360px;
     width: 100%;
-    height: 280px; }
+    padding-top: 80px; }
     .contact-wrapper .contact-text .contact-head {
       gap: 29px; }
   .contact-wrapper .contact-form-wrapper {
     max-width: 676px;
     width: 100%;
-    min-height: 751px;
     box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.1); }
     .contact-wrapper .contact-form-wrapper form {
       padding: 48px; }
