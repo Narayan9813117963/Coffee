@@ -16,29 +16,33 @@
 }
 
 h1 {
-  font-family: $primary-regular-font;
+  font-family:$playfair-regular-font;
   font-weight: 700;
   color: $primary-text-color;
   font-size: 64px;
+  margin: 0;
 }
 
 h2 {
-  font-family: $primary-regular-font;
+  font-family:$playfair-regular-font;
   font-weight: 600;
   color: $primary-text-color;
   font-size: 48px;
+  margin: 0;
 }
 
 h3 {
-  font-family: $third-font;
+  font-family: $Poppins-font;
   font-weight: 600;
   color: $primary-text-color;
   font-size: 32px;
+  margin: 0;
 }
 
 p {
   font-size: 16px;
-  font-family: $third-font;
+  font-family: $Poppins-font;
+  margin: 0;
 }
 
 li {
@@ -56,6 +60,9 @@ a {
 .button-secondary {
   @include button($secondary-color, $secondary-text-color);
 }
+figure{
+  margin: 0;
+}
 
 img {
   width: 100%;
@@ -66,7 +73,7 @@ img {
   width: 100%;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1400px) {
   .custom-container {
     padding: 0 20px;
   }

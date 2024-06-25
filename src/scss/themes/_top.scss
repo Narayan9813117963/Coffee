@@ -1,9 +1,24 @@
 .banner {
+  margin-top: 161px;
+  margin-bottom: 62px;
+
   .left-sec-banner {
+    max-width: 464px;
+    width: 100%;
+    .banner-text{
+      gap: 32px;
+    }
+
     .banner-paragraph {
       font-size: 24px;
-      font-family: $primary-regular-font;
+      font-family: $playfair-regular-font;
     }
+  }
+
+  .right-sec-banner {
+    max-width: 592.48px;
+    width: 100%;
+    height: 592.48px;
   }
 }
 
@@ -30,6 +45,7 @@
         margin: auto;
 
         .section-detail {
+          gap: 4px;
           .coffee-icon {
             height: 36px;
             width: 36px;
@@ -70,8 +86,15 @@
 }
 
 .contact-wrapper {
-  .contact-head {
-    padding: 71px 0;
+  margin: 106px 0;
+
+  .contact-text {
+    max-width: 360px;
+    width: 100%;
+    height: 280px;
+    .contact-head{
+      gap: 29px;
+    }
   }
 
   .contact-form-wrapper {
@@ -84,7 +107,7 @@
       padding: 48px;
 
       .form-input-wrapper {
-        gap: 40px;
+        gap: 48px;
 
         .contact-step-indicator {
           max-width: 157px;
@@ -101,13 +124,20 @@
             }
           }
         }
+
         .main-input-wrapper {
           max-width: 375px;
           width: 100%;
+
+          .first-last-name {
+            gap: 16px;
+          }
+
           label {
-            font-family: $secondary-font;
+            font-family: $GraphikRegular-font;
             font-size: 16px;
             font-weight: 400;
+            margin-bottom: 8px;
           }
 
           input,
@@ -128,7 +158,8 @@
             }
           }
         }
-        .name-wrapper{
+
+        .name-wrapper {
           max-width: 100%;
         }
       }
@@ -141,11 +172,13 @@
 
   }
 }
+
 @media screen and (max-width: 1200px) {
-  .customer-num-detail-wrapper{
+  .customer-num-detail-wrapper {
     top: -10% !important;
   }
 }
+
 @media screen and (max-width: 992px) {
   .row {
     margin-left: 0;
@@ -153,54 +186,51 @@
 
   .left-sec-banner {
     margin-bottom: 30px;
+    max-width: 100% !important;
   }
-  
-  .product-wrapper {
-    margin-top: 242px;
-    padding: 0;
-    padding-top: 232px;
-    .customer-num-detail-wrapper{
-      top: -17% !important;
-    }
-
-    .branch-customer-detail {
-      padding: 20px !important;
+  .right-sec-banner {
+    margin-bottom: 30px;
+    max-width: 100% !important;
+    .hero-image{
+      justify-content: center !important;
     }
   }
-
-  .contact-wrapper {
-    .contact-head {
-      text-align: center;
-    }
-
-    .contact-form-wrapper {
-      margin: auto;
-    }
+  .customer-num-detail-wrapper {
+    top: -17% !important;
   }
 
+  .branch-customer-detail {
+    padding: 20px !important;
+  }
+
+.contact-wrapper {
+  .contact-text{
+    margin: auto;
+    text-align: center;
+  }
+
+  .contact-form-wrapper {
+    margin: auto;
+  }
+}
 }
 
 @media screen and (max-width: 768px) {
-  .product-wrapper {
-    margin-top: 360px;
-    padding-top: 332px;
-  }
 
   .first-last-name {
     flex-direction: column;
   }
-  .name-wrapper{
+
+  .name-wrapper {
     max-width: 375px !important;
   }
-  .form-input-wrapper{
+
+  .form-input-wrapper {
     align-items: center;
   }
 }
 
 @media screen and (max-width: 576px) {
-  .product-wrapper {
-    padding-top: 232px;
-  }
   .contact-head {
     padding: 32px 0 !important;
   }

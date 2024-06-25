@@ -11,34 +11,34 @@
 </head>
 
 <body>
-    <header>
         <nav>
-            <div class="custom-container banner">
-                <div class="d-flex justify-content-between align-items-center nav-wrapper">
-                    <div class="col-lg-1">
+            <div class="header-navbar">
+            <div class="custom-container">
+                <div class="d-flex align-items-center nav-wrapper">
+                    <div class="col-lg-1 logo-wrapper">
                         <figure class="logo m-0">
                             <img src="../images/logo.svg" alt="logo">
                         </figure>
                     </div>
-                    <div class="col-lg-8 d-none d-lg-block">
-                        <div class="navbar px-4">
+                    <div class="col-lg-8 d-none d-lg-block navigations">
+                        <div class="navbar">
                             <ul class="navbar-nav mr-auto d-flex flex-row justify-content-between w-100">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="#">Solutions</a>
+                                    <a class="nav-link d-flex align-items-center justify-content-center" href="#">Solutions</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Industries</a>
+                                    <a class="nav-link d-flex align-items-center justify-content-center" href="#">Industries</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Reasons</a>
+                                    <a class="nav-link d-flex align-items-center justify-content-center" href="#">Reasons</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">About Us</a>
+                                    <a class="nav-link d-flex align-items-center justify-content-center" href="#">About Us</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-2 d-flex d-none d-lg-block justify-content-end">
+                    <div class="col-lg-2 d-flex d-none d-lg-block justify-content-end contact-btn">
                         <a class="button-primary" href="#">Contact Us</a>
                     </div>
                     <div class=" col-3 col-md-3 col-lg-2 toggler-btn d-block d-lg-none justify-content-end">
@@ -75,5 +75,6 @@
                     </div>
                 </div>
             </div>
+            </div>
+
         </nav>
-    </header>

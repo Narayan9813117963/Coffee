@@ -1,20 +1,24 @@
 <?php include ('inc/header.php'); ?>
 <main>
     <div class="custom-container banner">
-        <div class="row align-items-center mt-4">
-            <div class="col-lg-4 col-md-12">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-lg-5 col-md-12">
                 <div class="left-sec-banner">
+                <div class="banner-text d-flex flex-column">
                     <h1>Your coffee Your vibe Your energy</h1>
                     <p class="banner-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in
                         libero risus semper habitant arcu eget. Et integer facilisi eget.</p>
                     <a class="button-primary" href="#">Explore</a>
                 </div>
+                </div>
             </div>
-            <div class="col-lg-8 col-md-12">
+            <div class="col-lg-7 col-md-12 p-0">
+                <div class="right-sec-banner">
                 <div class="hero-image d-flex justify-content-end">
-                    <figure>
+                    <figure class="mb-0">
                         <img src="../images/Hero images.png" alt="hero-img">
                     </figure>
+                </div>
                 </div>
             </div>
         </div>
@@ -109,16 +113,17 @@
     </div>
 </section>
 <section>
-    <div class="contact-wrapper my-4">
+    <div class="contact-wrapper">
         <div class="custom-container container">
             <div class="row">
-                <div class="col-lg-4">
-                    <div class="contact-head">
+                <div class="col-lg-4 contact-text d-flex flex-column justify-content-center">
+                    <div class="contact-head d-flex flex-column">
                         <h2>Contact us</h2>
                         <p>Please complete te form, and a Cielo representative will contact you promptly!</p>
                     </div>
                 </div>
                 <div class="col-lg-8">
+                    <div class="d-flex justify-content-end" >
                     <div class="contact-form-wrapper">
                         <form action="submit">
                             <div class="form-input-wrapper d-flex flex-column">
@@ -127,18 +132,18 @@
                                     <div class="indicator"></div>
                                     <div class="indicator"></div>
                                 </div>
-                                <div class="main-input-wrapper name-wrapper d-flex flex-column gap-3">
+                                <div class="main-input-wrapper name-wrapper d-flex flex-column">
                                     <label for="first-name">*Name</label>
-                                    <div class="first-last-name d-flex gap-4">
+                                    <div class="first-last-name d-flex">
                                         <input type="text" id="first-name" placeholder="FirstName">
                                         <input type="text" placeholder="LastName">
                                     </div>
                                 </div>
-                                <div class="main-input-wrapper d-flex flex-column gap-3">
+                                <div class="main-input-wrapper d-flex flex-column">
                                     <label for="email">*Email</label>
                                     <input type="text" id="email" placeholder="email@example.com">
                                 </div>
-                                <div class="main-input-wrapper d-flex flex-column gap-3">
+                                <div class="main-input-wrapper d-flex flex-column">
                                     <label for="country">*Country</label>
                                     <select class="form-select" id="country" aria-label="Default select example">
                                         <option selected>Select</option>
@@ -147,7 +152,7 @@
                                         <option value="3">China</option>
                                     </select>
                                 </div>
-                                <div class="main-input-wrapper d-flex flex-column gap-3">
+                                <div class="main-input-wrapper d-flex flex-column">
                                     <label for="phone">*Phone</label>
                                     <input type="text" id="phone" placeholder="(555) 555-5555">
                                 </div>
@@ -157,6 +162,7 @@
                             </div>
                         </form>
                     </div>
+                    </div> 
                 </div>
             </div>
         </div>
