@@ -109,7 +109,7 @@
     </div>
 </section>
 <section>
-    <div class="contact-wrapper mt-4">
+    <div class="contact-wrapper my-4">
         <div class="custom-container container">
             <div class="row">
                 <div class="col-lg-4">
@@ -122,7 +122,7 @@
                     <div class="contact-form-wrapper">
                         <form action="submit">
                             <div class="form-input-wrapper d-flex flex-column">
-                                <div class="contact-step-indicator d-flex justify-content-between">
+                                <div class="contact-step-indicator d-flex justify-content-between gap-2">
                                     <div class="active indicator"></div>
                                     <div class="indicator"></div>
                                     <div class="indicator"></div>
