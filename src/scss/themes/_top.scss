@@ -25,7 +25,8 @@
 .product-wrapper {
   background: #363032;
   margin-top: 95px;
-  padding: 168px 0;
+  padding-top: 168px;
+  padding-bottom: 64px;
 
   .customer-num-detail-wrapper {
     margin-top: -263px;
@@ -78,6 +79,7 @@
 
   .product-name {
     color: #FFF;
+    padding-top: 16px;
   }
 }
 
@@ -188,7 +190,6 @@
   .hero-image {
     justify-content: center !important;
   }
-}
 
 .contact-wrapper {
   .contact-text {
@@ -201,7 +202,7 @@
     margin: auto;
   }
 }
-
+}
 @media screen and (max-width: 768px) {
 
   .first-last-name {

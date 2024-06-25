@@ -116,7 +116,8 @@ img {
 .product-wrapper {
   background: #363032;
   margin-top: 95px;
-  padding: 168px 0; }
+  padding-top: 168px;
+  padding-bottom: 64px; }
   .product-wrapper .customer-num-detail-wrapper {
     margin-top: -263px;
     padding-bottom: 84px; }
@@ -150,7 +151,8 @@ img {
     overflow: hidden;
     margin: 0; }
   .product-1 .product-name {
-    color: #FFF; }
+    color: #FFF;
+    padding-top: 16px; }
 
 .contact-wrapper {
   margin: 106px 0; }
@@ -219,15 +221,13 @@ img {
     margin-bottom: 30px;
     max-width: 100% !important; }
   .hero-image {
-    justify-content: center !important; } }
-
-.contact-wrapper .contact-text {
-  margin: auto;
-  text-align: center;
-  padding-bottom: 60px; }
-
-.contact-wrapper .contact-form-wrapper {
-  margin: auto; }
+    justify-content: center !important; }
+  .contact-wrapper .contact-text {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 60px; }
+  .contact-wrapper .contact-form-wrapper {
+    margin: auto; } }
 
 @media screen and (max-width: 768px) {
   .first-last-name {
