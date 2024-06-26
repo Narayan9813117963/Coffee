@@ -3,9 +3,6 @@
   padding-bottom: 80px;
 
   .left-sec-banner {
-    max-width: 464px;
-    width: 100%;
-
     .banner-text {
       gap: 32px;
     }
@@ -17,13 +14,16 @@
   }
 
   .right-sec-banner {
-    max-width: 592.48px;
-    width: 100%;
+    .hero-image {
+      max-width: 593px;
+      width: 100%;
+      margin-left: auto;
+    }
   }
 }
 
 .product-wrapper {
-  background: #363032;
+  background: $section-backgorund-dark-bg;
   margin-top: 95px;
   padding-top: 168px;
   padding-bottom: 64px;
@@ -47,7 +47,7 @@
         .coffee-icon {
           height: 36px;
           width: 36px;
-          background-color: #FFFFFF59;
+          background-color: $icon-bg;
           border-radius: 50%;
 
           img {
@@ -78,7 +78,7 @@
   }
 
   .product-name {
-    color: #FFF;
+    color: $global-white;
     padding-top: 16px;
   }
 }
@@ -99,7 +99,7 @@
   .contact-form-wrapper {
     max-width: 676px;
     width: 100%;
-    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 10px 40px 0px $global-shadow;
 
     form {
       padding: 48px;
@@ -114,11 +114,11 @@
             width: 24px;
             height: 7px;
             border-radius: 16px;
-            background-color: #DADADA;
+            background-color: $input-border;
 
             &.active {
               width: 81px;
-              background-color: #A36A4F;
+              background-color: $primary-color;
             }
           }
         }
@@ -144,7 +144,7 @@
             height: 62px;
             padding: 0 16px;
             border-radius: 8px;
-            border: 1px solid #DADADA;
+            border: 1px solid $input-border;
 
             &:focus {
               outline: none;
@@ -163,7 +163,7 @@
       }
 
       .contact-btn .button-primary {
-        background-color: #ECDAC4;
+        background-color: $secondary-color;
         color: #60431F;
       }
     }
@@ -175,50 +175,63 @@
   .right-sec-banner {
     margin: auto;
   }
+
+  .contact-wrapper {
+    .row {
+      flex-direction: column;
+    }
+
+    .contact-text {
+      margin: auto;
+      text-align: center;
+      padding-bottom: 86px;
+    }
+
+    .contact-forms {
+      width: 100% !important;
+    }
+
+    .contact-form-wrapper {
+      margin: auto;
+    }
+  }
 }
 
 @media screen and (max-width: 992px) {
-  .row {
-    margin-left: 0;
-  }
-
   .left-sec-banner {
     margin-bottom: 30px;
     max-width: 100% !important;
   }
-  .right-sec-banner{
-    max-width: 400px !important;
-  }
 
   .hero-image {
-    justify-content: center !important;
-  }
-
-.contact-wrapper {
-  .contact-text {
-    margin: auto;
-    text-align: center;
-    padding-bottom: 86px;
-  }
-
-  .contact-form-wrapper {
+    max-width: 450px !important;
     margin: auto;
   }
+  .contact-wrapper{
+    margin: 60px 0 ;
+    .contact-text {
+      padding:40px 0 !important;
+    }
+  }
+
 }
-}
+
 @media screen and (max-width: 768px) {
-
-  .first-last-name {
-    flex-direction: column;
+  .contact-wrapper{
+    margin: 0;
+    .first-last-name {
+      flex-direction: column;
+    }
+  
+    .name-wrapper {
+      max-width: 375px !important;
+    }
+  
+    .form-input-wrapper {
+      align-items: center;
+    }
   }
-
-  .name-wrapper {
-    max-width: 375px !important;
-  }
-
-  .form-input-wrapper {
-    align-items: center;
-  }
+ 
 }
 
 @media screen and (max-width: 576px) {

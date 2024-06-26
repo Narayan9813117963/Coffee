@@ -1,18 +1,46 @@
 @font-face {
   font-family: "playfair-display";
-  src: url(../../../dist/css/fonts/PlayfairDisplay-VariableFont_wght.ttf);
+  src: url('../../dist/css/fonts/PlayfairDisplay-VariableFont_wght/PlayfairDisplay-VariableFont_wght.woff') format('woff'),
+url('../../dist/css/fonts/PlayfairDisplay-VariableFont_wght/PlayfairDisplay-VariableFont_wght.woff2') format('woff2'),
+url('../../dist/css/fonts/PlayfairDisplay-VariableFont_wght/PlayfairDisplay-VariableFont_wght.svg') format('svg'),
+url('../../dist/css/fonts/PlayfairDisplay-VariableFont_wght/PlayfairDisplay-VariableFont_wght.eot'),
+url('../../dist/css/fonts/PlayfairDisplay-VariableFont_wght.eot?#iefix') format('embedded-opentype'),
+url('../../dist/css/fonts/PlayfairDisplay-VariableFont_wght/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "GraphikRegular";
-  src: url(../../../dist/css/fonts/GraphikRegular.otf);
+  src: url('../../dist/css/fonts/GraphikRegular/GraphikRegular.woff') format('woff'),
+url('../../dist/css/fonts/GraphikRegular/GraphikRegular.woff2') format('woff2'),
+url('../../dist/css/fonts/GraphikRegular/GraphikRegular.svg') format('svg'),
+url('../../dist/css/fonts/GraphikRegular/GraphikRegular.eot'),
+url('../../dist/css/fonts/GraphikRegular/GraphikRegular.eot?#iefix') format('embedded-opentype'),
+url('../../dist/css/fonts/GraphikRegular/GraphikRegular.otf') format('truetype');
+
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Poppins-Regular";
-  src: url(../../../dist/css/fonts/Poppins-Regular.ttf);
+  src: url('../../dist/css/fonts/Poppins-Regular/Poppins-Regular.woff') format('woff'),
+url('../../dist/css/fonts/Poppins-Regular/Poppins-Regular.woff2') format('woff2'),
+url('../../dist/css/fonts/Poppins-Regular.svg#Poppins-Regular') format('svg'),
+url('../../dist/css/fonts/Poppins-Regular.eot'),
+url('../../dist/css/fonts/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+url('../../dist/css/fonts/Poppins-Regular.ttf') format('truetype');
+
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
+$global-white: #fff;
 $primary-color: #A36A4F;
 $secondary-color: #ECDAC4;
 $playfair-regular-font: "playfair-display";
@@ -20,3 +48,10 @@ $GraphikRegular-font: "GraphikRegular";
 $Poppins-font: "Poppins-Regular";
 $primary-text-color: #363031;
 $secondary-text-color: #fff;
+$section-backgorund-dark-bg: #363032;
+$icon-bg: #FFFFFF59;
+$offcanvas-hover: #e4e4e4;
+$global-shadow: rgba(0, 0, 0, 0.1);
+$primary-btn-hover-border: #8c8c8c;
+$primary-btn-color: #606060;
+$input-border: #DADADA;

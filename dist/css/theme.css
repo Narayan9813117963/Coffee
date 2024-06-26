@@ -1,14 +1,23 @@
 @font-face {
   font-family: "playfair-display";
-  src: url(../../../dist/css/fonts/PlayfairDisplay-VariableFont_wght.ttf); }
+  src: url("../../dist/css/fonts/PlayfairDisplay-VariableFont_wght/PlayfairDisplay-VariableFont_wght.woff") format("woff"), url("../../dist/css/fonts/PlayfairDisplay-VariableFont_wght/PlayfairDisplay-VariableFont_wght.woff2") format("woff2"), url("../../dist/css/fonts/PlayfairDisplay-VariableFont_wght/PlayfairDisplay-VariableFont_wght.svg") format("svg"), url("../../dist/css/fonts/PlayfairDisplay-VariableFont_wght/PlayfairDisplay-VariableFont_wght.eot"), url("../../dist/css/fonts/PlayfairDisplay-VariableFont_wght.eot?#iefix") format("embedded-opentype"), url("../../dist/css/fonts/PlayfairDisplay-VariableFont_wght/PlayfairDisplay-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
 
 @font-face {
   font-family: "GraphikRegular";
-  src: url(../../../dist/css/fonts/GraphikRegular.otf); }
+  src: url("../../dist/css/fonts/GraphikRegular/GraphikRegular.woff") format("woff"), url("../../dist/css/fonts/GraphikRegular/GraphikRegular.woff2") format("woff2"), url("../../dist/css/fonts/GraphikRegular/GraphikRegular.svg") format("svg"), url("../../dist/css/fonts/GraphikRegular/GraphikRegular.eot"), url("../../dist/css/fonts/GraphikRegular/GraphikRegular.eot?#iefix") format("embedded-opentype"), url("../../dist/css/fonts/GraphikRegular/GraphikRegular.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
 
 @font-face {
   font-family: "Poppins-Regular";
-  src: url(../../../dist/css/fonts/Poppins-Regular.ttf); }
+  src: url("../../dist/css/fonts/Poppins-Regular/Poppins-Regular.woff") format("woff"), url("../../dist/css/fonts/Poppins-Regular/Poppins-Regular.woff2") format("woff2"), url("../../dist/css/fonts/Poppins-Regular.svg#Poppins-Regular") format("svg"), url("../../dist/css/fonts/Poppins-Regular.eot"), url("../../dist/css/fonts/Poppins-Regular.eot?#iefix") format("embedded-opentype"), url("../../dist/css/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
 
 * {
   margin: 0;
@@ -104,20 +113,22 @@ img {
   .custom-container {
     padding: 0 20px; } }
 
+@media screen and (max-width: 1200px) {
+  .custom-container-sm {
+    padding: 0 20px; } }
+
 .banner {
   padding-top: 161px;
   padding-bottom: 80px; }
-  .banner .left-sec-banner {
-    max-width: 464px;
-    width: 100%; }
-    .banner .left-sec-banner .banner-text {
-      gap: 32px; }
-    .banner .left-sec-banner .banner-paragraph {
-      font-size: 24px;
-      font-family: "playfair-display"; }
-  .banner .right-sec-banner {
-    max-width: 592.48px;
-    width: 100%; }
+  .banner .left-sec-banner .banner-text {
+    gap: 32px; }
+  .banner .left-sec-banner .banner-paragraph {
+    font-size: 24px;
+    font-family: "playfair-display"; }
+  .banner .right-sec-banner .hero-image {
+    max-width: 593px;
+    width: 100%;
+    margin-left: auto; }
 
 .product-wrapper {
   background: #363032;
@@ -157,7 +168,7 @@ img {
     overflow: hidden;
     margin: 0; }
   .product-1 .product-name {
-    color: #FFF;
+    color: #fff;
     padding-top: 16px; }
 
 .contact-wrapper {
@@ -218,32 +229,39 @@ img {
 
 @media screen and (max-width: 1200px) {
   .right-sec-banner {
-    margin: auto; } }
-
-@media screen and (max-width: 992px) {
-  .row {
-    margin-left: 0; }
-  .left-sec-banner {
-    margin-bottom: 30px;
-    max-width: 100% !important; }
-  .right-sec-banner {
-    max-width: 400px !important; }
-  .hero-image {
-    justify-content: center !important; }
+    margin: auto; }
+  .contact-wrapper .row {
+    flex-direction: column; }
   .contact-wrapper .contact-text {
     margin: auto;
     text-align: center;
     padding-bottom: 86px; }
+  .contact-wrapper .contact-forms {
+    width: 100% !important; }
   .contact-wrapper .contact-form-wrapper {
     margin: auto; } }
 
+@media screen and (max-width: 992px) {
+  .left-sec-banner {
+    margin-bottom: 30px;
+    max-width: 100% !important; }
+  .hero-image {
+    max-width: 450px !important;
+    margin: auto; }
+  .contact-wrapper {
+    margin: 60px 0; }
+    .contact-wrapper .contact-text {
+      padding: 40px 0 !important; } }
+
 @media screen and (max-width: 768px) {
-  .first-last-name {
-    flex-direction: column; }
-  .name-wrapper {
-    max-width: 375px !important; }
-  .form-input-wrapper {
-    align-items: center; } }
+  .contact-wrapper {
+    margin: 0; }
+    .contact-wrapper .first-last-name {
+      flex-direction: column; }
+    .contact-wrapper .name-wrapper {
+      max-width: 375px !important; }
+    .contact-wrapper .form-input-wrapper {
+      align-items: center; } }
 
 @media screen and (max-width: 576px) {
   .contact-head {
@@ -284,7 +302,7 @@ img {
         height: 1px;
         background-color: #363031; }
     .header-navbar .nav-wrapper .offcanvas {
-      background-color: #ffffff;
+      background-color: #fff;
       height: 100vh !important; }
       .header-navbar .nav-wrapper .offcanvas .offcanvas-body a {
         color: #363031;
