@@ -325,12 +325,16 @@ img {
           font-family: "graphikRegular";
           height: 74px;
           width: 100%; }
-    .header-navbar .nav-wrapper .toggler-btn .bar-icon {
-      width: 36px;
-      gap: 10px; }
-      .header-navbar .nav-wrapper .toggler-btn .bar-icon span {
-        height: 1px;
-        background-color: #363031; }
+    .header-navbar .nav-wrapper .toggler-btn .bar-icon-wrapper {
+      max-width: 40px;
+      height: 40px;
+      margin-left: auto; }
+      .header-navbar .nav-wrapper .toggler-btn .bar-icon-wrapper .bar-icon {
+        width: 100%;
+        gap: 12px; }
+        .header-navbar .nav-wrapper .toggler-btn .bar-icon-wrapper .bar-icon span {
+          height: 1px;
+          background-color: #363031; }
     .header-navbar .nav-wrapper .offcanvas {
       background-color: #fff;
       height: 100vh !important; }

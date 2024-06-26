@@ -44,7 +44,7 @@
                         <a class="button-primary" href="#">Contact Us</a>
                     </div>
                     <div class=" col-3 col-md-3 col-lg-2 toggler-btn d-block d-lg-none justify-content-end">
-                        <div class=" d-flex align-items-center justify-content-end w-100">
+                        <div class="bar-icon-wrapper d-flex align-items-center justify-content-end w-100">
                             <div class="bar-icon d-flex flex-column" data-bs-toggle="offcanvas"
                                 href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
                                 <span class="w-100"></span>

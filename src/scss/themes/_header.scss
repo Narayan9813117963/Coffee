@@ -34,16 +34,21 @@
         }
       }
     }
+
     .toggler-btn {
-      .bar-icon {
-        width: 36px;
-        gap: 12px;
-        span {
-          height: 1px;
-          background-color: $primary-text-color;
+      .bar-icon-wrapper {
+        max-width: 40px;
+        height: 40px;
+        margin-left: auto;
+        .bar-icon {
+          width: 100%;
+          gap: 12px;
+          span {
+            height: 1px;
+            background-color: $primary-text-color;
+          }
         }
       }
-
     }
 
     .offcanvas {
@@ -70,9 +75,10 @@
   }
 
 }
+
 @media screen and (max-width: 1200px) {
-  .header-navbar{
-    padding: 0 20px; 
+  .header-navbar {
+    padding: 0 20px;
   }
 }
 
