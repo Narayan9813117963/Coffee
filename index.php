@@ -60,8 +60,8 @@
         </div>
 
         <div class="custom-container">
-            <div class="row mx-auto">
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl d-flex justify-content-center mb-4">
+            <div class="row product-list mx-auto">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl d-flex justify-content-center">
                     <div class="product-1">
                         <figure class="product-img">
                             <img src="images/shop/product1.jpg" alt="product-1">
@@ -69,7 +69,7 @@
                         <p class="product-name text-center">Et integer facilisi eget</p>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl d-flex justify-content-center mb-4">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl d-flex justify-content-center">
                     <div class="product-1">
                         <figure class="product-img">
                             <img src="images/shop/product2.jpg" alt="product-2">
@@ -77,7 +77,7 @@
                         <p class="product-name text-center">Et integer facilisi eget</p>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl d-flex justify-content-center mb-4">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl d-flex justify-content-center">
                     <div class="product-1">
                         <figure class="product-img">
                             <img src="images/shop/product3.jpg" alt="product-3">
@@ -85,7 +85,7 @@
                         <p class="product-name text-center">Et integer facilisi eget</p>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl d-flex justify-content-center mb-4">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl d-flex justify-content-center">
                     <div class="product-1">
                         <figure class="product-img">
                             <img src="images/shop/product4.jpg" alt="product-4">
@@ -93,7 +93,7 @@
                         <p class="product-name text-center">Et integer facilisi eget</p>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl d-flex justify-content-center mb-4">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl d-flex justify-content-center">
                     <div class="product-1">
                         <figure class="product-img">
                             <img src="images/shop/product5.jpg" alt="product-5">

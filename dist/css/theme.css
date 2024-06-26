@@ -253,6 +253,8 @@ img {
   .product-wrapper {
     padding-left: 20px;
     padding-right: 20px; }
+    .product-wrapper .product-list {
+      row-gap: 32px; }
   .contact-wrapper {
     padding-left: 20px;
     padding-right: 20px; }
@@ -324,7 +326,8 @@ img {
           height: 74px;
           width: 100%; }
     .header-navbar .nav-wrapper .toggler-btn .bar-icon {
-      width: 28px; }
+      width: 36px;
+      gap: 10px; }
       .header-navbar .nav-wrapper .toggler-btn .bar-icon span {
         height: 1px;
         background-color: #363031; }

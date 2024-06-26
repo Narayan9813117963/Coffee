@@ -188,6 +188,9 @@
   .product-wrapper {
     padding-left: 20px;
     padding-right: 20px;
+    .product-list{
+      row-gap: 32px;
+    }
   }
 
   .contact-wrapper {
