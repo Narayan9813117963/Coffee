@@ -68,7 +68,12 @@ a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 0.3s, color 0.3s; }
+  transition: background-color 0.3s, color 0.3s;
+  border: 1px solid transparent; }
+  .button-primary:hover {
+    background-color: transparent !important;
+    border: 1px solid #8c8c8c;
+    color: #606060; }
 
 .button-secondary {
   background-color: #ECDAC4;
@@ -82,7 +87,8 @@ a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 0.3s, color 0.3s; }
+  transition: background-color 0.3s, color 0.3s;
+  border: 1px solid transparent; }
 
 figure {
   margin: 0; }
@@ -220,12 +226,14 @@ img {
   .left-sec-banner {
     margin-bottom: 30px;
     max-width: 100% !important; }
+  .right-sec-banner {
+    max-width: 400px !important; }
   .hero-image {
     justify-content: center !important; }
   .contact-wrapper .contact-text {
     margin: auto;
     text-align: center;
-    padding-bottom: 60px; }
+    padding-bottom: 86px; }
   .contact-wrapper .contact-form-wrapper {
     margin: auto; } }
 
@@ -281,7 +289,10 @@ img {
       .header-navbar .nav-wrapper .offcanvas .offcanvas-body a {
         color: #363031;
         font-size: 22px;
-        font-family: "GraphikRegular"; }
+        font-family: "GraphikRegular";
+        transition: 0.3s backgorund ease-in-out; }
+        .header-navbar .nav-wrapper .offcanvas .offcanvas-body a:hover {
+          background-color: #e4e4e4; }
 
 @media screen and (max-width: 992px) {
   .nav-wrapper {

@@ -54,6 +54,10 @@
         color: $primary-text-color;
         font-size: 22px;
         font-family: $GraphikRegular-font;
+        transition:  0.3s backgorund ease-in-out;
+        &:hover{
+          background-color: #e4e4e4;
+        }
       }
     }
   }

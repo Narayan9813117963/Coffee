@@ -55,6 +55,11 @@ a {
 
 .button-primary {
   @include button($primary-color, $primary-text-color);
+  &:hover{
+    background-color: transparent !important;
+    border: 1px solid #8c8c8c;
+    color: #606060;
+  }
 }
 
 .button-secondary {
