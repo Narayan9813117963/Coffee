@@ -1,11 +1,11 @@
 @font-face {
   font-family: "playfair-display";
   src: url('../../dist/css/fonts/PlayfairDisplay-VariableFont_wght/PlayfairDisplay-VariableFont_wght.woff') format('woff'),
-url('../../dist/css/fonts/PlayfairDisplay-VariableFont_wght/PlayfairDisplay-VariableFont_wght.woff2') format('woff2'),
-url('../../dist/css/fonts/PlayfairDisplay-VariableFont_wght/PlayfairDisplay-VariableFont_wght.svg') format('svg'),
-url('../../dist/css/fonts/PlayfairDisplay-VariableFont_wght/PlayfairDisplay-VariableFont_wght.eot'),
-url('../../dist/css/fonts/PlayfairDisplay-VariableFont_wght.eot?#iefix') format('embedded-opentype'),
-url('../../dist/css/fonts/PlayfairDisplay-VariableFont_wght/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+    url('../../dist/css/fonts/PlayfairDisplay-VariableFont_wght/PlayfairDisplay-VariableFont_wght.woff2') format('woff2'),
+    url('../../dist/css/fonts/PlayfairDisplay-VariableFont_wght/PlayfairDisplay-VariableFont_wght.svg') format('svg'),
+    url('../../dist/css/fonts/PlayfairDisplay-VariableFont_wght/PlayfairDisplay-VariableFont_wght.eot'),
+    url('../../dist/css/fonts/PlayfairDisplay-VariableFont_wght.eot?#iefix') format('embedded-opentype'),
+    url('../../dist/css/fonts/PlayfairDisplay-VariableFont_wght/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
 
   font-weight: normal;
   font-style: normal;
@@ -13,13 +13,13 @@ url('../../dist/css/fonts/PlayfairDisplay-VariableFont_wght/PlayfairDisplay-Vari
 }
 
 @font-face {
-  font-family: "GraphikRegular";
+  font-family: "graphikRegular";
   src: url('../../dist/css/fonts/GraphikRegular/GraphikRegular.woff') format('woff'),
-url('../../dist/css/fonts/GraphikRegular/GraphikRegular.woff2') format('woff2'),
-url('../../dist/css/fonts/GraphikRegular/GraphikRegular.svg') format('svg'),
-url('../../dist/css/fonts/GraphikRegular/GraphikRegular.eot'),
-url('../../dist/css/fonts/GraphikRegular/GraphikRegular.eot?#iefix') format('embedded-opentype'),
-url('../../dist/css/fonts/GraphikRegular/GraphikRegular.otf') format('truetype');
+    url('../../dist/css/fonts/GraphikRegular/GraphikRegular.woff2') format('woff2'),
+    url('../../dist/css/fonts/GraphikRegular/GraphikRegular.svg') format('svg'),
+    url('../../dist/css/fonts/GraphikRegular/GraphikRegular.eot'),
+    url('../../dist/css/fonts/GraphikRegular/GraphikRegular.eot?#iefix') format('embedded-opentype'),
+    url('../../dist/css/fonts/GraphikRegular/GraphikRegular.otf') format('truetype');
 
   font-weight: normal;
   font-style: normal;
@@ -27,13 +27,39 @@ url('../../dist/css/fonts/GraphikRegular/GraphikRegular.otf') format('truetype')
 }
 
 @font-face {
-  font-family: "Poppins-Regular";
+  font-family: "poppins-Regular";
   src: url('../../dist/css/fonts/Poppins-Regular/Poppins-Regular.woff') format('woff'),
-url('../../dist/css/fonts/Poppins-Regular/Poppins-Regular.woff2') format('woff2'),
-url('../../dist/css/fonts/Poppins-Regular.svg#Poppins-Regular') format('svg'),
-url('../../dist/css/fonts/Poppins-Regular.eot'),
-url('../../dist/css/fonts/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
-url('../../dist/css/fonts/Poppins-Regular.ttf') format('truetype');
+    url('../../dist/css/fonts/Poppins-Regular/Poppins-Regular.woff2') format('woff2'),
+    url('../../dist/css/fonts/Poppins-Regular.svg#Poppins-Regular') format('svg'),
+    url('../../dist/css/fonts/Poppins-Regular.eot'),
+    url('../../dist/css/fonts/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../../dist/css/fonts/Poppins-Regular.ttf') format('truetype');
+
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "avenirLTStd-Roman";
+  src: url('../../dist/css/fonts/AvenirLTStd-Roman/AvenirLTStd-Roman.woff') format('woff'),
+    url('../../dist/css/fonts/AvenirLTStd-Roman/AvenirLTStd-Roman.woff2') format('woff2'),
+    url('../../dist/css/fonts/AvenirLTStd-Roman/AvenirLTStd-Roman.eot'),
+    url('../../dist/css/fonts/AvenirLTStd-Roman/AvenirLTStd-Roman.eot?#iefix') format('embedded-opentype'),
+    url('../../dist/css/fonts/AvenirLTStd-Roman/AvenirLTStd-Roman.otf') format('truetype');
+
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "testTiemposFine-Semibold";
+  src: url('../../dist/css/fonts/TestTiemposFine-Semibold-BF66457a50f016a/TestTiemposFine-Semibold-BF66457a50f016a.woff') format('woff'),
+    url('../../dist/css/fonts/TestTiemposFine-Semibold-BF66457a50f016a/TestTiemposFine-Semibold-BF66457a50f016a.woff2') format('woff2'),
+    url('../../dist/css/fonts/TestTiemposFine-Semibold-BF66457a50f016a/TestTiemposFine-Semibold-BF66457a50f016a.eot'),
+    url('../../dist/css/fonts/TestTiemposFine-Semibold-BF66457a50f016a/TestTiemposFine-Semibold-BF66457a50f016a.eot?#iefix') format('embedded-opentype'),
+    url('../../dist/css/fonts/TestTiemposFine-Semibold-BF66457a50f016a/TestTiemposFine-Semibold-BF66457a50f016a.otf') format('truetype');
 
   font-weight: normal;
   font-style: normal;
@@ -44,8 +70,10 @@ $global-white: #fff;
 $primary-color: #A36A4F;
 $secondary-color: #ECDAC4;
 $playfair-regular-font: "playfair-display";
-$GraphikRegular-font: "GraphikRegular";
-$Poppins-font: "Poppins-Regular";
+$graphikRegular-font: "graphikRegular";
+$poppins-font: "poppins-Regular";
+$avenirLTStd-Roman-font: "avenirLTStd-Roman";
+$testTiemposFine-Semibold: "testTiemposFine-Semibold";
 $primary-text-color: #363031;
 $secondary-text-color: #fff;
 $section-backgorund-dark-bg: #363032;

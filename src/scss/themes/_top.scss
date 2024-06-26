@@ -11,6 +11,10 @@
       font-size: 24px;
       font-family: $playfair-regular-font;
     }
+
+    .button-primary {
+      font-family: $avenirLTStd-Roman-font;
+    }
   }
 
   .right-sec-banner {
@@ -86,14 +90,11 @@
 .contact-wrapper {
   margin: 106px 0;
 
-  .contact-text {
+  .contact-head {
     max-width: 360px;
     width: 100%;
     padding-top: 80px;
-
-    .contact-head {
-      gap: 29px;
-    }
+    gap: 29px;
   }
 
   .contact-form-wrapper {
@@ -132,7 +133,7 @@
           }
 
           label {
-            font-family: $GraphikRegular-font;
+            font-family: $graphikRegular-font;
             font-size: 16px;
             font-weight: 400;
             margin-bottom: 8px;
@@ -145,9 +146,10 @@
             padding: 0 16px;
             border-radius: 8px;
             border: 1px solid $input-border;
-            font-family: $Poppins-font;
+            font-family: $poppins-font;
             font-size: 16px;
             color: input-border;
+
             &:focus {
               outline: none;
               box-shadow: none;
@@ -174,16 +176,29 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .right-sec-banner {
-    margin: auto;
+  .banner {
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .right-sec-banner {
+      margin: auto;
+    }
+  }
+
+  .product-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .contact-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+
     .row {
       flex-direction: column;
     }
 
-    .contact-text {
+    .contact-head {
       margin: auto;
       text-align: center;
       padding-bottom: 86px;
@@ -209,34 +224,41 @@
     max-width: 450px !important;
     margin: auto;
   }
-  .contact-wrapper{
-    margin: 60px 0 ;
-    .contact-text {
-      padding:40px 0 !important;
+
+  .contact-wrapper {
+    margin: 60px 0;
+
+    .contact-head {
+      padding: 40px 0 !important;
     }
   }
 }
 
 @media screen and (max-width: 768px) {
-  .contact-wrapper{
+  .contact-wrapper {
     margin: 0;
     margin-bottom: 40px;
+
     .first-last-name {
       flex-direction: column;
     }
-  
+
     .name-wrapper {
       max-width: 375px !important;
     }
-  
+
     .form-input-wrapper {
       align-items: center;
     }
   }
- 
+
 }
 
 @media screen and (max-width: 576px) {
+  .banner-paragraph {
+    font-size: 18px !important;
+  }
+
   .contact-head {
     padding: 32px 0 !important;
   }

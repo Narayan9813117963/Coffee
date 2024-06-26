@@ -16,7 +16,7 @@
 }
 
 h1 {
-  font-family:$playfair-regular-font;
+  font-family: $playfair-regular-font;
   font-weight: 700;
   color: $primary-text-color;
   font-size: 64px;
@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-  font-family:$playfair-regular-font;
+  font-family: $testTiemposFine-Semibold;
   font-weight: 600;
   color: $primary-text-color;
   font-size: 48px;
@@ -32,7 +32,7 @@ h2 {
 }
 
 h3 {
-  font-family: $Poppins-font;
+  font-family: $poppins-font;
   font-weight: 600;
   color: $primary-text-color;
   font-size: 32px;
@@ -41,7 +41,7 @@ h3 {
 
 p {
   font-size: 16px;
-  font-family: $Poppins-font;
+  font-family: $poppins-font;
   margin: 0;
 }
 
@@ -55,7 +55,8 @@ a {
 
 .button-primary {
   @include button($primary-color, $primary-text-color);
-  &:hover{
+
+  &:hover {
     background-color: transparent !important;
     border: 1px solid $primary-btn-hover-border;
     color: $primary-btn-color;
@@ -65,7 +66,8 @@ a {
 .button-secondary {
   @include button($secondary-color, $secondary-text-color);
 }
-figure{
+
+figure {
   margin: 0;
 }
 
@@ -75,14 +77,20 @@ img {
 }
 
 
-@media screen and (max-width: 1200px) {
-  .custom-container {
-    padding: 0 20px;
+@media screen and (max-width: 576px) {
+  h1 {
+    font-size: 48px;
   }
 
-}
-@media screen and (max-width: 1200px) {
-  .custom-container-sm {
-    padding: 0 20px;
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 15px;
   }
 }

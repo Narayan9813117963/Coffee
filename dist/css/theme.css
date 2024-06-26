@@ -6,15 +6,29 @@
   font-display: swap; }
 
 @font-face {
-  font-family: "GraphikRegular";
+  font-family: "graphikRegular";
   src: url("../../dist/css/fonts/GraphikRegular/GraphikRegular.woff") format("woff"), url("../../dist/css/fonts/GraphikRegular/GraphikRegular.woff2") format("woff2"), url("../../dist/css/fonts/GraphikRegular/GraphikRegular.svg") format("svg"), url("../../dist/css/fonts/GraphikRegular/GraphikRegular.eot"), url("../../dist/css/fonts/GraphikRegular/GraphikRegular.eot?#iefix") format("embedded-opentype"), url("../../dist/css/fonts/GraphikRegular/GraphikRegular.otf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
-  font-family: "Poppins-Regular";
+  font-family: "poppins-Regular";
   src: url("../../dist/css/fonts/Poppins-Regular/Poppins-Regular.woff") format("woff"), url("../../dist/css/fonts/Poppins-Regular/Poppins-Regular.woff2") format("woff2"), url("../../dist/css/fonts/Poppins-Regular.svg#Poppins-Regular") format("svg"), url("../../dist/css/fonts/Poppins-Regular.eot"), url("../../dist/css/fonts/Poppins-Regular.eot?#iefix") format("embedded-opentype"), url("../../dist/css/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: "avenirLTStd-Roman";
+  src: url("../../dist/css/fonts/AvenirLTStd-Roman/AvenirLTStd-Roman.woff") format("woff"), url("../../dist/css/fonts/AvenirLTStd-Roman/AvenirLTStd-Roman.woff2") format("woff2"), url("../../dist/css/fonts/AvenirLTStd-Roman/AvenirLTStd-Roman.eot"), url("../../dist/css/fonts/AvenirLTStd-Roman/AvenirLTStd-Roman.eot?#iefix") format("embedded-opentype"), url("../../dist/css/fonts/AvenirLTStd-Roman/AvenirLTStd-Roman.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: "testTiemposFine-Semibold";
+  src: url("../../dist/css/fonts/TestTiemposFine-Semibold-BF66457a50f016a/TestTiemposFine-Semibold-BF66457a50f016a.woff") format("woff"), url("../../dist/css/fonts/TestTiemposFine-Semibold-BF66457a50f016a/TestTiemposFine-Semibold-BF66457a50f016a.woff2") format("woff2"), url("../../dist/css/fonts/TestTiemposFine-Semibold-BF66457a50f016a/TestTiemposFine-Semibold-BF66457a50f016a.eot"), url("../../dist/css/fonts/TestTiemposFine-Semibold-BF66457a50f016a/TestTiemposFine-Semibold-BF66457a50f016a.eot?#iefix") format("embedded-opentype"), url("../../dist/css/fonts/TestTiemposFine-Semibold-BF66457a50f016a/TestTiemposFine-Semibold-BF66457a50f016a.otf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
@@ -41,14 +55,14 @@ h1 {
   margin: 0; }
 
 h2 {
-  font-family: "playfair-display";
+  font-family: "testTiemposFine-Semibold";
   font-weight: 600;
   color: #363031;
   font-size: 48px;
   margin: 0; }
 
 h3 {
-  font-family: "Poppins-Regular";
+  font-family: "poppins-Regular";
   font-weight: 600;
   color: #363031;
   font-size: 32px;
@@ -56,7 +70,7 @@ h3 {
 
 p {
   font-size: 16px;
-  font-family: "Poppins-Regular";
+  font-family: "poppins-Regular";
   margin: 0; }
 
 li {
@@ -70,7 +84,7 @@ a {
   color: #fff;
   width: 162px;
   height: 48px;
-  font-family: "GraphikRegular";
+  font-family: "graphikRegular";
   border-radius: 25px;
   font-weight: 400;
   font-size: 18px;
@@ -89,7 +103,7 @@ a {
   color: #fff;
   width: 162px;
   height: 48px;
-  font-family: "GraphikRegular";
+  font-family: "graphikRegular";
   border-radius: 25px;
   font-weight: 400;
   font-size: 18px;
@@ -106,13 +120,15 @@ img {
   width: 100%;
   height: 100%; }
 
-@media screen and (max-width: 1200px) {
-  .custom-container {
-    padding: 0 20px; } }
-
-@media screen and (max-width: 1200px) {
-  .custom-container-sm {
-    padding: 0 20px; } }
+@media screen and (max-width: 576px) {
+  h1 {
+    font-size: 48px; }
+  h2 {
+    font-size: 36px; }
+  h3 {
+    font-size: 28px; }
+  p {
+    font-size: 15px; } }
 
 .banner {
   padding-top: 161px;
@@ -122,6 +138,8 @@ img {
   .banner .left-sec-banner .banner-paragraph {
     font-size: 24px;
     font-family: "playfair-display"; }
+  .banner .left-sec-banner .button-primary {
+    font-family: "avenirLTStd-Roman"; }
   .banner .right-sec-banner .hero-image {
     max-width: 593px;
     width: 100%;
@@ -170,12 +188,11 @@ img {
 
 .contact-wrapper {
   margin: 106px 0; }
-  .contact-wrapper .contact-text {
+  .contact-wrapper .contact-head {
     max-width: 360px;
     width: 100%;
-    padding-top: 80px; }
-    .contact-wrapper .contact-text .contact-head {
-      gap: 29px; }
+    padding-top: 80px;
+    gap: 29px; }
   .contact-wrapper .contact-form-wrapper {
     max-width: 676px;
     width: 100%;
@@ -200,7 +217,7 @@ img {
           .contact-wrapper .contact-form-wrapper form .form-input-wrapper .main-input-wrapper .first-last-name {
             gap: 16px; }
           .contact-wrapper .contact-form-wrapper form .form-input-wrapper .main-input-wrapper label {
-            font-family: "GraphikRegular";
+            font-family: "graphikRegular";
             font-size: 16px;
             font-weight: 400;
             margin-bottom: 8px; }
@@ -211,7 +228,7 @@ img {
             padding: 0 16px;
             border-radius: 8px;
             border: 1px solid #DADADA;
-            font-family: "Poppins-Regular";
+            font-family: "poppins-Regular";
             font-size: 16px;
             color: input-border; }
             .contact-wrapper .contact-form-wrapper form .form-input-wrapper .main-input-wrapper input:focus,
@@ -228,18 +245,27 @@ img {
         color: #60431F; }
 
 @media screen and (max-width: 1200px) {
-  .right-sec-banner {
-    margin: auto; }
-  .contact-wrapper .row {
-    flex-direction: column; }
-  .contact-wrapper .contact-text {
-    margin: auto;
-    text-align: center;
-    padding-bottom: 86px; }
-  .contact-wrapper .contact-forms {
-    width: 100% !important; }
-  .contact-wrapper .contact-form-wrapper {
-    margin: auto; } }
+  .banner {
+    padding-left: 20px;
+    padding-right: 20px; }
+    .banner .right-sec-banner {
+      margin: auto; }
+  .product-wrapper {
+    padding-left: 20px;
+    padding-right: 20px; }
+  .contact-wrapper {
+    padding-left: 20px;
+    padding-right: 20px; }
+    .contact-wrapper .row {
+      flex-direction: column; }
+    .contact-wrapper .contact-head {
+      margin: auto;
+      text-align: center;
+      padding-bottom: 86px; }
+    .contact-wrapper .contact-forms {
+      width: 100% !important; }
+    .contact-wrapper .contact-form-wrapper {
+      margin: auto; } }
 
 @media screen and (max-width: 992px) {
   .left-sec-banner {
@@ -250,7 +276,7 @@ img {
     margin: auto; }
   .contact-wrapper {
     margin: 60px 0; }
-    .contact-wrapper .contact-text {
+    .contact-wrapper .contact-head {
       padding: 40px 0 !important; } }
 
 @media screen and (max-width: 768px) {
@@ -265,6 +291,8 @@ img {
       align-items: center; } }
 
 @media screen and (max-width: 576px) {
+  .banner-paragraph {
+    font-size: 18px !important; }
   .contact-head {
     padding: 32px 0 !important; }
   form {
@@ -273,26 +301,26 @@ img {
 .header-navbar {
   width: 100%;
   position: fixed;
-  top: 0;
-  z-index: 999; }
+  top: 28px;
+  z-index: 999;
+  transition: 0.2s top ease-in-out; }
   .header-navbar .nav-wrapper {
     padding: 0 48px;
     box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     border-radius: 10px;
-    margin-top: 28px;
     height: 100px;
     gap: 48PX; }
-    .header-navbar .nav-wrapper .logo-wrapper {
+    .header-navbar .nav-wrapper .logo {
       height: 76px;
       width: 76px; }
-    .header-navbar .nav-wrapper .navigations {
+    .header-navbar .nav-wrapper .navbar {
       max-width: 720px; }
-      .header-navbar .nav-wrapper .navigations .navbar ul li {
+      .header-navbar .nav-wrapper .navbar ul li {
         width: 96px; }
-        .header-navbar .nav-wrapper .navigations .navbar ul li a {
+        .header-navbar .nav-wrapper .navbar ul li a {
           font-size: 18px;
-          font-family: "GraphikRegular";
+          font-family: "graphikRegular";
           height: 74px;
           width: 100%; }
     .header-navbar .nav-wrapper .contact-btn {
@@ -308,10 +336,12 @@ img {
       .header-navbar .nav-wrapper .offcanvas .offcanvas-body a {
         color: #363031;
         font-size: 22px;
-        font-family: "GraphikRegular";
+        font-family: "graphikRegular";
         transition: 0.3s backgorund ease-in-out; }
         .header-navbar .nav-wrapper .offcanvas .offcanvas-body a:hover {
           background-color: #e4e4e4; }
+  .header-navbar.fixed {
+    top: 0; }
 
 @media screen and (max-width: 992px) {
   .nav-wrapper {

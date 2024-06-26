@@ -1,19 +1,24 @@
 <?php include ('inc/header.php'); ?>
 <main class="custom-container banner">
     <div class="row align-items-center justify-content-between">
-        <div class="col-lg-5 col-md-12 left-sec-banner">
-            <div class="banner-text d-flex flex-column">
-                <h1>Your coffee <br> Your vibe<br> Your energy</h1>
-                <p class="banner-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in
-                    libero risus semper habitant arcu eget. Et integer facilisi eget.</p>
-                <a class="button-primary" href="#">Explore</a>
+        <div class="col-lg-5 col-md-12">
+            <div class="left-sec-banner">
+                <div class="banner-text d-flex flex-column">
+                    <h1>Your coffee <br> Your vibe<br> Your energy</h1>
+                    <p class="banner-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in
+                        libero risus semper habitant arcu eget. Et integer facilisi eget.</p>
+                    <a class="button-primary" href="#">Explore</a>
+                </div>
             </div>
+
         </div>
-        <div class="col-lg-7 col-md-12 p-0 right-sec-banner">
-            <div class="hero-image">
-                <figure class="mb-0">
-                    <img src="images/hero-images.png" alt="hero-img">
-                </figure>
+        <div class="col-lg-7 col-md-12 p-0">
+            <div class="right-sec-banner">
+                <div class="hero-image">
+                    <figure class="mb-0">
+                        <img src="images/hero-images.png" alt="hero-img">
+                    </figure>
+                </div>
             </div>
         </div>
     </div>
@@ -102,15 +107,15 @@
 </section>
 <section>
     <div class="contact-wrapper">
-        <div class="custom-container container">
-            <div class="row mx-auto">
-                <div class="col-lg-4 contact-text">
+        <div class="custom-container">
+            <div class="row align-items-md-center align-items-xl-start">
+                <div class="col-lg-4">
                     <div class="contact-head d-flex flex-column">
                         <h2>Contact us</h2>
                         <p>Please complete te form, and a Cielo representative will contact you promptly!</p>
                     </div>
                 </div>
-                <div class="col-lg-8 contact-forms">
+                <div class="col-lg-8">
                     <div class="d-flex justify-content-end">
                         <div class="contact-form-wrapper">
                             <form action="submit">

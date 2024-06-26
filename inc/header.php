@@ -10,16 +10,15 @@
 </head>
 
 <body>
-    <nav>
-        <div class="header-navbar">
+    <nav class="header-navbar">
             <div class="custom-container">
                 <div class="d-flex align-items-center nav-wrapper">
-                    <div class="col-lg-1 logo-wrapper">
+                    <div class="col-lg-1">
                         <figure class="logo m-0">
                             <img src="../images/logo.svg" alt="logo">
                         </figure>
                     </div>
-                    <div class="col-lg-8 d-none d-lg-block navigations">
+                    <div class="col-lg-8 d-none d-lg-block">
                         <div class="navbar">
                             <ul class="navbar-nav mr-auto d-flex flex-row justify-content-between w-100">
                                 <li class="nav-item active">
@@ -78,6 +77,4 @@
                     </div>
                 </div>
             </div>
-        </div>
-
     </nav>
