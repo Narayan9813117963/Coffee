@@ -65,11 +65,11 @@
                             <div class="offcanvas-body">
                                 <div class="offcanvas-contents">
                                     <ul class="d-flex flex-column p-0">
-                                        <li class="text-center"><a class="py-3 d-block  w-100" href="#">Home</a></li>
-                                        <li class="text-center"><a class="py-3 d-block  w-100" href="#">About us</a>
+                                        <li class="text-center"><a class="py-3 d-block" href="#">Home</a></li>
+                                        <li class="text-center"><a class="py-3 d-block" href="#">About us</a>
                                         </li>
-                                        <li class="text-center"><a class="py-3 d-block  w-100" href="#">Menu</a></li>
-                                        <li class="text-center"><a class="py-3 d-block  w-100" href="#">Contact us</a>
+                                        <li class="text-center"><a class="py-3 d-block" href="#">Menu</a></li>
+                                        <li class="text-center"><a class="py-3 d-block" href="#">Contact us</a>
                                         </li>
                                     </ul>
                                 </div>

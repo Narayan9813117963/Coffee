@@ -145,7 +145,9 @@
             padding: 0 16px;
             border-radius: 8px;
             border: 1px solid $input-border;
-
+            font-family: $Poppins-font;
+            font-size: 16px;
+            color: input-border;
             &:focus {
               outline: none;
               box-shadow: none;
@@ -164,7 +166,7 @@
 
       .contact-btn .button-primary {
         background-color: $secondary-color;
-        color: #60431F;
+        color: $secondary-btn-bg-color;
       }
     }
 
@@ -213,12 +215,12 @@
       padding:40px 0 !important;
     }
   }
-
 }
 
 @media screen and (max-width: 768px) {
   .contact-wrapper{
     margin: 0;
+    margin-bottom: 40px;
     .first-last-name {
       flex-direction: column;
     }

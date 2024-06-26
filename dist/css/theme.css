@@ -106,9 +106,6 @@ img {
   width: 100%;
   height: 100%; }
 
-.row {
-  width: 100%; }
-
 @media screen and (max-width: 1200px) {
   .custom-container {
     padding: 0 20px; } }
@@ -213,7 +210,10 @@ img {
             height: 62px;
             padding: 0 16px;
             border-radius: 8px;
-            border: 1px solid #DADADA; }
+            border: 1px solid #DADADA;
+            font-family: "Poppins-Regular";
+            font-size: 16px;
+            color: input-border; }
             .contact-wrapper .contact-form-wrapper form .form-input-wrapper .main-input-wrapper input:focus,
             .contact-wrapper .contact-form-wrapper form .form-input-wrapper .main-input-wrapper select:focus {
               outline: none;
@@ -255,7 +255,8 @@ img {
 
 @media screen and (max-width: 768px) {
   .contact-wrapper {
-    margin: 0; }
+    margin: 0;
+    margin-bottom: 40px; }
     .contact-wrapper .first-last-name {
       flex-direction: column; }
     .contact-wrapper .name-wrapper {
