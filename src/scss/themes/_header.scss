@@ -34,11 +34,6 @@
         }
       }
     }
-
-    .contact-btn {
-      max-width: fit-content;
-    }
-
     .toggler-btn {
       .bar-icon {
         width: 28px;
@@ -74,6 +69,11 @@
     top: 0;
   }
 
+}
+@media screen and (max-width: 1200px) {
+  .header-navbar{
+    padding: 0 20px; 
+  }
 }
 
 

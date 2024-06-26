@@ -39,10 +39,8 @@ window.addEventListener("scroll", function () {
   var navbar = document.querySelector(".header-navbar"); // Use querySelector instead of getElementById
   if (window.scrollY > 100) {
     navbar.classList.add("fixed");
-    navbar.style.opacity = "1";
   } else {
     navbar.classList.remove("fixed");
-    navbar.style.opacity = "1";
   }
 });
 
